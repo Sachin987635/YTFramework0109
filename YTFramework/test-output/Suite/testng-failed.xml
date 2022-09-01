@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="loginandclickonsubscriptions"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="init"/>
+          <include name="loginandclickonsubscriptions"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="loginandclickonHistory"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC7">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC7 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="loginandclickonsubscriptions"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="mainprogram"/>
+          <include name="closebrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

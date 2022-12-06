@@ -19,4 +19,9 @@ public class TC1 extends Base{
 		Homepage homepageclicks=new Homepage(driver, pr);
 		homepageclicks.Explore();
 	}
+	@AfterMethod
+	public void closebrowser() {
+		//Closing the Browser
+		driver.close();
+	}
 }

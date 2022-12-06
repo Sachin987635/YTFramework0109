@@ -3,11 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="org.testing.utilities.DropDownselection">
+      <class name="org.testing.TestScripts.TC3">
         <methods>
-          <include name="login"/>
+          <include name="loginandclickonsubscriptions"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- org.testing.utilities.DropDownselection -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

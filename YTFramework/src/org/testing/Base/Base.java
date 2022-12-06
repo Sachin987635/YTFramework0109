@@ -30,9 +30,4 @@ public class Base {
 		driver.get("https://www.youtube.com/");
 		Thread.sleep(10000);
 		}
-	@AfterMethod
-	public void closebrowser() {
-		//Closing the Browser
-		driver.close();
-	}
 }
